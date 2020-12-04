@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МастерОК</title>
+
+    <link rel="stylesheet" href="./css/base.css">
+</head>
+<body>
+    <!-- navigation -->
+    <nav id="nav">
+        <div class="logo">
+            <img src="./assets/images/logo_ok.JPG" alt="">
+        </div>
+        <div class="menu-btn" id="menu-open-btn">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+
+    <div id="nav-links">
+        <ul id="links">
+            <div class="menu-btn" id="menu-close-btn">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <li>
+                <a href="#" style="border-left: 2px solid #000; padding-left: 2px;">Главная</a>
+            </li>
+            <li>
+                <a id="login-btn">Вход</a>
+            </li>
+            <li>
+                <a id="register-btn">Регистрация</a>
+            </li>
+            <li>
+                <a href="#">Ссылка</a>
+            </li>
+        </ul>
+    </div>
+    <!-- navigation -->
+
+    <!-- welcome -->
+    <div class="welcome">
+        <div class="content">
+            <h1>МастерОК</h1>
+            <p>Добро пожаловать!</p>
+        </div>
+    </div>
+    <!-- welcome -->
+
+    <!-- work -->
+    <div class="work">
+        <h1>Наша работа</h1>
+        <div class="row">
+            <div class="col">
+                <img src="./assets/images/repairment/2306fcd60e4be9c56ef145cafcd06b67.jpg" alt="">
+                <h1 class="text">Работа 1</h1>
+            </div>
+            <div class="col">
+                <img src="./assets/images/repairment/do_stroi1.png" alt="">
+                <h1 class="text">Работа 2</h1>
+            </div>
+            <div class="col">
+                <img src="./assets/images/repairment/music-681573_1920.jpg" alt="">
+                <h1 class="text">Работа 3</h1>
+            </div>
+            <div class="col">
+                <img src="./assets/images/repairment/2306fcd60e4be9c56ef145cafcd06b67.jpg" alt="">
+                <h1 class="text">Работа 4</h1>
+            </div>
+        </div>
+    </div>
+    <!-- work -->
+
+    <!-- form -->
+    <div class="form" id="login-form">
+        <div class="exit" id="login-exit-btn">закрыть</div>
+        <form>
+            <h1>Вход</h1>
+            <input type="text" placeholder="Логин...">
+            <input type="password" placeholder="Пароль...">
+            <button type="submit">Вход</button>
+        </form>
+    </div>
+
+    <div class="form" id="register-form">
+        <div class="exit" id="register-exit-btn">закрыть</div>
+        <form>
+            <h1>Регистрация</h1>
+            <input type="text" placeholder="ФИО...">
+            <input type="text" placeholder="Логин...">
+            <input type="email" placeholder="Email...">
+            <input type="password" placeholder="Пароль...">
+            <input type="password" placeholder="Повторить пароль...">
+            <button type="submit">Регистрация</button>
+        </form>
+    </div>
+    <!-- form -->
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
